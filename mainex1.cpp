@@ -3,6 +3,8 @@
 #include <string>
 #include <vector>
 
+//Să se citească toate subcheile unei chei (la alegere) din Registry și să se afișeze la ieșirea standard.
+
 int main() {
     HKEY hKeyRoot = HKEY_CURRENT_USER;
     LPCSTR subKey = "SOFTWARE";
